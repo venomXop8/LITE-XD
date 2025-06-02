@@ -1,6 +1,6 @@
 const { lite ,commands } = require('../lite');
 const { exec } = require('child_process');
-const config = require('../config');
+const config = require('../settings');
 const {sleep} = require('../lib/functions')
 // 1. Shutdown Bot
 lite({
